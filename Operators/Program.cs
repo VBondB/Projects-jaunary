@@ -1,4 +1,8 @@
-﻿Console.WriteLine("Введіть перше число: ");
+﻿using System.Text;
+
+Console.OutputEncoding = Encoding.UTF8;
+
+Console.WriteLine("Введіть перше число: ");
 int num1 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Введіть друге число: ");
