@@ -13,7 +13,7 @@ char operation = Console.ReadLine() [0];
 
 int result = 0; 
 
-switch (operation)
+    switch (operation)
 {
     case '+':
         result = num1 + num2;
